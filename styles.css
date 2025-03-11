@@ -167,11 +167,13 @@ body {
   }
 
   .btn {
+    background-color: #f6f4fa;
+    color: #6e5494;
     padding: 10px 20px;
     font-size: 14px;
   }
 
-  .btn-HsinYa, .btn-dog, .btn-survey {
+  .btn-HsinYa, .btn-dog, .btn-survey, .btn-back {
     background-color: rgb(175, 174, 174);
     color: black;
 }
