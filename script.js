@@ -76,18 +76,4 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  // Add paw print background
-  const pawPrints = document.querySelector(".paw-prints");
-  if (pawPrints) {
-    for (let i = 0; i < 15; i++) {
-      const paw = document.createElement("div");
-      paw.style.position = "absolute";
-      paw.style.top = `${Math.random() * 100}%`;
-      paw.style.left = `${Math.random() * 100}%`;
-      paw.style.transform = `rotate(${Math.random() * 360}deg)`;
-      paw.innerHTML = "🐾";
-      paw.style.fontSize = "20px";
-      pawPrints.appendChild(paw);
-    }
-  }
 });
