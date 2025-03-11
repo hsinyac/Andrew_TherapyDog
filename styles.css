@@ -111,8 +111,6 @@ body {
   padding: 12px 25px;
   border-radius: 50px;
   border: none;
-  background-color: rgb(175, 174, 174);
-  color: black;
   font-weight: bold;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -187,5 +185,8 @@ body {
   .btn {
     padding: 10px 20px;
     font-size: 14px;
+    background-color: rgb(175, 174, 174);
+    color: black;
   }
+
 }
