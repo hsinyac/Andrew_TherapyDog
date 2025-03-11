@@ -15,7 +15,6 @@ body {
 }
 
 .card-header {
-  background: #fcd783;
   padding: 20px 10px;
   text-align: center;
   border-radius: 20px 20px 0 0;
@@ -176,6 +175,5 @@ body {
     background-color: rgb(175, 174, 174);
     color: black;
   }
-
 
 }
