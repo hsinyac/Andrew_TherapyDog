@@ -185,8 +185,12 @@ body {
   .btn {
     padding: 10px 20px;
     font-size: 14px;
+  }
+
+  .btn-HsinYa .btn-dog .btn-survey {
     background-color: rgb(175, 174, 174);
     color: black;
   }
+
 
 }
