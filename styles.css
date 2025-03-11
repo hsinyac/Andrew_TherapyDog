@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #e6e6fa, #d8bfd8);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* .invitation-card {
+  width: 100%;
+  max-width: 400px;
+  position: relative;
+} */
+
+.card-header {
+  background: #fcd783
+  padding: 20px 10px;
+  text-align: center;
+  border-radius: 20px 20px 0 0;
+}
+
+.card-header h1 {
+  color: #4b3c8c;
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.card-header p {
+  color: #6e5494;
+  font-size: 16px;
+}
+
+.card-content {
+  padding: 25px 20px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 10px 10px 10px 10px;
+}
+
+.dog-image {
+  width: 180px;
+  height: 180px;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  background-color: #f0e6ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.dog-image img {
+  width: 80%;
+  height: auto;
+  margin-top: 5%;
+}
+
+.invitation-text {
+  margin-bottom: 30px;
+  color: #4b3c8c;
+}
+
+.invitation-text h2 {
+  margin-bottom: 15px;
+  font-size: 22px;
+  color: #6e5494;
+}
+
+.invitation-text p {
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.details {
+  background-color: #f0e6ff;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.details p {
+  margin-bottom: 5px;
+  color: #4b3c8c;
+}
+
+.response-buttons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.response-buttons2 {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.btn {
+  padding: 12px 25px;
+  border-radius: 50px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 16px;
+}
+
+.btn-yes {
+  background-color: #f6f4fa;
+  color: #6e5494;
+  border: 2px solid #d8bfd8;
+  color: #4b3c8c;
+  
+}
+
+.btn-no {
+  background-color: #f0e6ff;
+  color: #6e5494;
+  border: 2px solid #d8bfd8;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+}
+
+.btn-no:hover {
+  background-color: #e6e6fa;
+  box-shadow: 0 7px 20px rgba(110, 84, 148, 0.2);
+}
+
+.btn-survey {
+  background-color: #f6f4fa;
+  color: #6e5494;
+  border: 2px solid #d8bfd8;
+  color: #4b3c8c;
+  
+}
+
+.thank-you-message {
+  color: #30265c;
+  display: none;
+  text-align: center;
+  padding: 20px;
+  background-color: #f0e6ff;
+  border-radius: 10px;
+  margin-top: 20px;
+  border-left: 4px solid #6e5494;
+}
+
+.paw-prints {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  opacity: 0.1;
+  z-index: 0;
+}
+
+@media (max-width: 400px) {
+  .card-header h1 {
+    font-size: 22px;
+  }
+
+  .dog-image {
+    width: 150px;
+    height: 150px;
+  }
+
+  .invitation-text h2 {
+    font-size: 20px;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}

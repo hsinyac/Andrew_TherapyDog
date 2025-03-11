@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Therapy Dog Tuesday Invitation</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="invitation-card">
+      <div class="paw-prints"></div>
+
+      <div class="card-header">
+        <h1>Therapy Dog Tuesday</h1>
+      </div>
+
+      <div class="card-content">
+        <div class="dog-image">
+          <img src="images.jpeg" alt="Therapy Dog" />
+        </div>
+
+        <div class="invitation-text">
+          <h2>Hiii Andrew,</h2>
+          <p>You're invited to the Therapy Dog Tuesday this week!</p>
+          <p>
+            Come spend time with our friendly therapy dogs and take a break from
+            your day.
+          </p>
+        </div>
+
+        <div class="details">
+          <p><strong>Date:</strong> Tuesday</p>
+          <p><strong>Time:</strong> 7:00 PM </p>
+          <p><strong>Location:</strong> Cathedral of Learning</p>
+        </div>
+        
+        <div class="response-buttons">
+          <button class="btn btn-yes" id="btnYes">Wanna wanna!</button>
+          <button class="btn btn-no" id="btnNo"> 不行我不要 </button>
+        </div>
+
+        <div class="thank-you-message" id="thankYouYes">
+          <h3>Wonderfull!! You made a clever choice! </h3>
+          <p>The dogs can't wait to meet you!</p>
+        </div>
+
+        <div class="thank-you-message" id="thankYouNo">
+          <h3>Uh-uh please try again.</h3>
+          <p>Hope you make a better choice this time, Andrew!</p>
+        </div>
+
+        <div class="response-buttons">
+          <button class="btn btn-survey" id="btnSurvey" style="display: none;">Take a survey</button>
+        </div>
+
+
+        <div class="thank-you-message" id="meet-who" style="display: none;"> 
+          <h2> How about you? </h3>
+          <p> I can't wait to see </p>
+          <div class="response-buttons2" style="margin-top: 0; margin-bottom: 0;">
+            <button class="btn btn-HsinYa" id="btnHY"">心雅</button>
+            <button class="btn btn-dog" id="btnDogs""> 狗狗 </button>
+          </div>
+        </div>
+
+        <div class="thank-you-message" id="cantWaitHY">
+          <h3> Ni-ce Ni-ce!! </h3>
+          <p>HsinYa can't wait to meet you too!</p>
+        </div>
+
+        <div class="thank-you-message" id="cantWaitDogs" style="color: red;">
+          <h3> The date has been canceled. </h3>
+        </div>
+
+        
+
+        <div class="response-buttons">
+          <button class="btn btn-back" id="btnBack" style="display: none;">Back</button>
+        </div>
+
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
